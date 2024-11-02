@@ -85,3 +85,9 @@ data_hours = {
 }
 df_hours = pd.DataFrame(data_hours)
 st.table(df_hours)
+
+
+st.subheader("POS Frequency as a Function of Child Age")
+st.image("img/pos.png", caption="POS Frequency as a Function of Child Age", use_column_width=True)
+
+
